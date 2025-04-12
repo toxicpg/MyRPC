@@ -10,7 +10,7 @@ class ZkClient
 {
 public:
     ZkClient();
-    ~ZkClie·nt();
+    ~ZkClient();
     //zkclient启动连接zkserver
     void Start();
     //在zkserver中创建一个节点，根据指定的path
